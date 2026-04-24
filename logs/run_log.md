@@ -1,17 +1,18 @@
 # Brand Audit Cron Run Log
 
 ## Latest Run
-- **Date:** 2026-04-12
-- **Brand:** Monday.com (index 19)
-- **URL:** https://monday.com
-- **Pages browsed:** 12+
-- **Notion page ID:** 340ccc30-3aed-81a5-86e3-d2d4ccf4dbf0
-- **Status:** Success (state reconciled 2026-04-23 after interrupted run)
-- **Next index:** 20 (Attio)
+- **Date:** 2026-04-23
+- **Brand:** Attio (index 20)
+- **URL:** https://attio.com
+- **Pages browsed:** 14
+- **Notion page ID:** 34cccc30-3aed-8101-abf5-e98b3d79da7a
+- **Status:** Success
+- **Next index:** 21 (xAI / Grok)
 
 ## Run History (last 18)
 | Date | Brand | Index | Pages | Status | Notion ID |
 |------|-------|-------|-------|--------|-----------|
+| 2026-04-23 | Attio | 20 | 14 | Success | 34cccc30-3aed-8101-abf5-e98b3d79da7a |
 | 2026-04-12 | Monday.com | 19 | 12+ | Success (reconciled) | 340ccc30-3aed-81a5-86e3-d2d4ccf4dbf0 |
 | 2026-04-10 | Replit | 18 | 14 | Success | 33eccc30-3aed-8193-9fa5-edd432676731 |
 | 2026-04-09 | 1Password | 17 | 14 | Success | 33dccc30-3aed-8183-97ec-fc9d1c5145a0 |
