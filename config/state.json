@@ -1,0 +1,112 @@
+{
+  "current_index": 20,
+  "completed": [
+    {
+      "brand": "Apple",
+      "date": "2026-03-23",
+      "notion_page_id": "32cccc30-3aed-81f6-bd22-d453b50d513e"
+    },
+    {
+      "brand": "Google",
+      "date": "2026-03-24",
+      "notion_page_id": "32dccc30-3aed-8114-9f56-d4b9cd7c381b"
+    },
+    {
+      "brand": "Perplexity",
+      "date": "2026-03-24",
+      "notion_page_id": "32dccc30-3aed-81fc-922c-fa3b610003e8"
+    },
+    {
+      "brand": "Droplight",
+      "date": "2026-03-24",
+      "notion_page_id": "32dccc30-3aed-8141-99a5-fc9182eded1a",
+      "method": "on-demand expedited"
+    },
+    {
+      "brand": "Claude (Anthropic)",
+      "date": "2026-03-25",
+      "notion_page_id": "32eccc30-3aed-8165-a163-ce06a92c2844"
+    },
+    {
+      "brand": "GitHub",
+      "date": "2026-03-25",
+      "notion_page_id": "32eccc30-3aed-8115-919b-d75803a102dc"
+    },
+    {
+      "brand": "Notion",
+      "date": "2026-03-26",
+      "notion_page_id": "32fccc30-3aed-8167-9444-d7b2e5ec5d4c"
+    },
+    {
+      "brand": "Palantir",
+      "date": "2026-03-27",
+      "notion_page_id": "330ccc30-3aed-81f1-8e58-e2cbf251936b"
+    },
+    {
+      "brand": "Anduril",
+      "date": "2026-03-29",
+      "notion_page_id": "332ccc30-3aed-8182-a494-d43fe851b606"
+    },
+    {
+      "brand": "Lovable",
+      "date": "2026-03-30",
+      "notion_page_id": "333ccc30-3aed-81f7-901b-ddb91b2eaa81"
+    },
+    {
+      "brand": "Zoom",
+      "date": "2026-03-31",
+      "notion_page_id": "334ccc30-3aed-81c4-a42a-ed169a87d667"
+    },
+    {
+      "brand": "Cursor",
+      "date": "2026-04-01",
+      "notion_page_id": "335ccc30-3aed-81bc-a75f-e8d019dc1f7e"
+    },
+    {
+      "brand": "Linear",
+      "date": "2026-04-02",
+      "notion_page_id": "336ccc30-3aed-8165-b52c-e4802775b80b"
+    },
+    {
+      "brand": "Vercel",
+      "date": "2026-04-03",
+      "notion_page_id": "337ccc30-3aed-81d8-bcc5-c6b386fd5884"
+    },
+    {
+      "brand": "Stripe",
+      "date": "2026-04-05",
+      "notion_page_id": "339ccc30-3aed-8101-aa95-f533ad733e6e"
+    },
+    {
+      "brand": "Cloudflare",
+      "date": "2026-04-06",
+      "notion_page_id": "33accc30-3aed-8103-b78c-e85d5515e627"
+    },
+    {
+      "brand": "OpenAI",
+      "date": "2026-04-07",
+      "notion_page_id": "33bccc30-3aed-81fb-b302-e878eaffb5f3"
+    },
+    {
+      "brand": "Figma",
+      "date": "2026-04-08",
+      "notion_page_id": "33cccc30-3aed-81fa-80bc-da21d1e45f84"
+    },
+    {
+      "brand": "1Password",
+      "date": "2026-04-09",
+      "notion_page_id": "33dccc30-3aed-8183-97ec-fc9d1c5145a0"
+    },
+    {
+      "brand": "Replit",
+      "date": "2026-04-10",
+      "notion_page_id": "33eccc30-3aed-8193-9fa5-edd432676731"
+    },
+    {
+      "brand": "Monday.com",
+      "date": "2026-04-12",
+      "notion_page_id": "340ccc30-3aed-81a5-86e3-d2d4ccf4dbf0"
+    }
+  ],
+  "failed": []
+}
