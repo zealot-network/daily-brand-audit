@@ -1,5 +1,5 @@
 {
-  "current_index": 20,
+  "current_index": 21,
   "completed": [
     {
       "brand": "Apple",
@@ -106,6 +106,11 @@
       "brand": "Monday.com",
       "date": "2026-04-12",
       "notion_page_id": "340ccc30-3aed-81a5-86e3-d2d4ccf4dbf0"
+    },
+    {
+      "brand": "Attio",
+      "date": "2026-04-23",
+      "notion_page_id": "34cccc30-3aed-8101-abf5-e98b3d79da7a"
     }
   ],
   "failed": []
