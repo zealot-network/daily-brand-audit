@@ -1,0 +1,29 @@
+# Local secrets and env files — never commit
+.env
+.env.*
+!.env.example
+secrets/
+*.secret
+
+# Notion / connector identifiers pulled into local scratch files
+notion_ids.json
+cron_ids.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Python / Node scratch (if anyone adds scripts later)
+__pycache__/
+*.pyc
+node_modules/
+dist/
+build/
+
+# Scratch / work-in-progress audits
+audits/_wip/
+*.draft.md
