@@ -1,17 +1,22 @@
 # Brand Audit Cron Run Log
 
 ## Latest Run
-- **Date:** 2026-04-23
-- **Brand:** Attio (index 20)
-- **URL:** https://attio.com
-- **Pages browsed:** 14
-- **Notion page ID:** 34cccc30-3aed-8101-abf5-e98b3d79da7a
+- **Date:** 2026-04-28
+- **Brand:** Kubota (index 25)
+- **URL:** https://www.kubotausa.com
+- **Pages browsed:** 13
+- **Notion page ID:** 351ccc30-3aed-8115-8248-e82c9121ef1a
 - **Status:** Success
-- **Next index:** 21 (xAI / Grok)
+- **Next index:** 26 (SpaceX)
 
-## Run History (last 18)
+## Run History (last 25)
 | Date | Brand | Index | Pages | Status | Notion ID |
 |------|-------|-------|-------|--------|-----------|
+| 2026-04-28 | Kubota | 25 | 13 | Success (Cowork / WebFetch) | 351ccc30-3aed-8115-8248-e82c9121ef1a |
+| 2026-04-28 | Lexus | 24 | 21 | Success (Cowork / WebFetch) | 350ccc30-3aed-8190-bfca-f9ef85ac0a64 |
+| 2026-04-28 | Toyota | 23 | 13 | Success (Cowork / WebFetch) | 350ccc30-3aed-813b-ae39-dcf9ffce3304 |
+| 2026-04-27 | Mercedes-Benz | 22 | 14 | Success (Cowork / WebFetch) | 34fccc30-3aed-81a0-8484-c5729185d5ad |
+| 2026-04-26 | xAI (Grok) | 21 | 13 | Success | 34eccc30-3aed-8155-8b6f-f5cea9a264b6 |
 | 2026-04-23 | Attio | 20 | 14 | Success | 34cccc30-3aed-8101-abf5-e98b3d79da7a |
 | 2026-04-12 | Monday.com | 19 | 12+ | Success (reconciled) | 340ccc30-3aed-81a5-86e3-d2d4ccf4dbf0 |
 | 2026-04-10 | Replit | 18 | 14 | Success | 33eccc30-3aed-8193-9fa5-edd432676731 |

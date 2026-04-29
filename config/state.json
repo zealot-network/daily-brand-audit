@@ -1,5 +1,5 @@
 {
-  "current_index": 21,
+  "current_index": 26,
   "completed": [
     {
       "brand": "Apple",
@@ -111,6 +111,35 @@
       "brand": "Attio",
       "date": "2026-04-23",
       "notion_page_id": "34cccc30-3aed-8101-abf5-e98b3d79da7a"
+    },
+    {
+      "brand": "xAI (Grok)",
+      "date": "2026-04-26",
+      "notion_page_id": "34eccc30-3aed-8155-8b6f-f5cea9a264b6"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "date": "2026-04-27",
+      "notion_page_id": "34fccc30-3aed-81a0-8484-c5729185d5ad",
+      "method": "WebFetch + Notion MCP (Cowork)"
+    },
+    {
+      "brand": "Toyota",
+      "date": "2026-04-28",
+      "notion_page_id": "350ccc30-3aed-813b-ae39-dcf9ffce3304",
+      "method": "WebFetch + Notion MCP (Cowork)"
+    },
+    {
+      "brand": "Lexus",
+      "date": "2026-04-28",
+      "notion_page_id": "350ccc30-3aed-8190-bfca-f9ef85ac0a64",
+      "method": "WebFetch + Notion MCP (Cowork)"
+    },
+    {
+      "brand": "Kubota",
+      "date": "2026-04-28",
+      "notion_page_id": "351ccc30-3aed-8115-8248-e82c9121ef1a",
+      "method": "WebFetch + Notion MCP (Cowork)"
     }
   ],
   "failed": []
