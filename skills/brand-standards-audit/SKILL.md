@@ -22,7 +22,7 @@ When invoking this skill, provide:
 
 This skill runs in any Claude runtime. The two supported execution paths are:
 
-**Browser-based runtime** (Perplexity Comet, Claude in Chrome with full DOM tools, or any environment exposing `browser_task` / `read_page` / `get_page_text`):
+**Browser-based runtime** (Perplexity Computer, Claude in Chrome with full DOM tools, or any environment exposing `browser_task` / `read_page` / `get_page_text`):
 - Use the browser tools directly to navigate and scrape each page.
 - Take screenshots where layout, color, spacing, or visual hierarchy matters.
 
