@@ -715,8 +715,8 @@ Visible third-party services on lexus.com include:
 - Adobe Experience Manager (CMS / hosting)
 - Adobe Helix / Edge (for CDN and analytics RUM via `helix-rum-js@%5E2/dist/micro.js`)
 - Ensighten Tag Management (`https://nexus.toyota.com/toyotanational/l-com-p/Bootstrap.js`). Toyota's enterprise tag manager
-- Google Maps (with key `AIzaSyCxAWnukaS4_TiQLtTQQ8JjfGTCjHixtuY` exposed in the React config): used for the dealer locator
-- TomTom Maps (with key `V8OekGZK77tbbkxxIrm4NPMFm15CNcYJ` exposed in the React config): used as an alternative or fallback for vehicle-routing visualization
+- Google Maps (with a referrer-restricted browser key `AIza…[redacted]` exposed in the React config): used for the dealer locator
+- TomTom Maps (with a browser key `V8Oe…[redacted]` exposed in the React config): used as an alternative or fallback for vehicle-routing visualization
 - Salesforce Apex REST endpoint (`https://toyotamexico.my.salesforce.com/services/apexrest/`). used for lead-capture and CRM integration
 - Toyota EOS endpoints (`eos.prod.toyota.com`, `oauth.orc.lexus.com/eos`, `vehicle-health.orc.lexus.com`, `vehicle-info.orc.lexus.com`). the Toyota Connected Services backend
 

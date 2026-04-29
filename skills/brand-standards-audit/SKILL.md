@@ -183,7 +183,7 @@ This section must be the deepest and most detailed. It sets the quality bar for 
 - **Theme** (theme name, theme ID if visible in source or URL patterns).
 - **Section/template IDs** (Shopify section types, template names visible in classes or data attributes).
 - **URL patterns** (collection URL structure, product URL structure, page URL structure, blog URL structure).
-- **Third-party integrations** (reviews, email, analytics, chat, loyalty, wishlist).
+- **Third-party integrations** (reviews, email, analytics, chat, loyalty, wishlist). When a service is identified by an API key embedded in client-side config, name the service and redact the key value (see "Secret redaction rule" below). Do not write live keys or tokens into the audit output.
 - **Performance observations** (page load feel, lazy loading, image optimization, render-blocking resources).
 - **SEO title patterns** (format of page titles).
 - **Meta description patterns** (consistent template or unique per page?).
@@ -209,6 +209,25 @@ Use H1 for the title line, H2 for each of the 10 sections, H3 for subsections wi
 
 #### Punctuation rule (HARD)
 **Do not use em dashes (—) anywhere in the audit output.** This is a non-negotiable user preference. Use periods, colons, or sentence restructuring instead. If a draft contains em dashes, scrub them before saving or pushing to Notion. En dashes (–) in numeric ranges like "13–14px" are acceptable.
+
+#### Secret redaction rule (HARD)
+**Never write live API keys, tokens, or secrets verbatim into the audit output.** This applies even when a key is publicly visible in the brand's client-side code (e.g., a Google Maps browser key in a React config). Reasons: (1) the audit markdown is committed to a public-ish repo and pushed to Notion, which trips GitHub secret scanning and re-publishes the value; (2) it is not our place to amplify another organization's exposed credentials, even if they are referrer-restricted.
+
+When you identify a service by its key, document the service and redact the key value. Use a `prefix…[redacted]` form so it is still recognizable as a real key without being usable:
+
+- Google API keys (`AIza...`): write as `AIza…[redacted]`
+- Mapbox tokens (`pk....` / `sk....`): write as `pk…[redacted]` / `sk…[redacted]`
+- TomTom keys: write as the first 4 chars + `…[redacted]`
+- Anything matching `[A-Za-z0-9_\-]{20,}` that looks like a credential: same `prefix…[redacted]` form
+- Bearer tokens, JWTs, signed URLs with tokens: redact the token portion, keep the host
+
+Before saving the audit file or writing to Notion, grep the output for common key patterns and replace any survivors. Recommended scrub:
+
+```
+grep -nE 'AIza[A-Za-z0-9_-]{35}|sk_(live|test)_[A-Za-z0-9]{20,}|pk\.[A-Za-z0-9._-]{40,}|ghp_[A-Za-z0-9]{36}|xox[baprs]-[A-Za-z0-9-]{10,}' audit_output.md
+```
+
+If the grep returns matches, redact and re-run until clean. Do not save or push until clean.
 
 ---
 
@@ -270,6 +289,7 @@ Before declaring the run complete, verify:
 - Strategic interpretation (the "why") is included alongside observations (the "what").
 - Notable absences are documented in every relevant section.
 - Em dashes have been stripped from the final output.
+- No live API keys, tokens, or secrets remain in the output (run the secret-pattern grep from the Secret redaction rule and confirm zero matches before saving or pushing).
 - Local markdown copy saved to the workspace folder.
 - Notion page exists and renders all 10 H2 sections (verify with a follow-up `notion-fetch` call).
 
@@ -285,6 +305,7 @@ Before declaring the run complete, verify:
 - Each section should read like a chapter from a professional brand guidelines document.
 - If a section seems thin, go back to the site and scrape additional pages for more data.
 - Never em dashes in output.
+- Never write live API keys, tokens, or secrets verbatim. Always use the `prefix…[redacted]` form, even for client-side keys that are publicly visible in the brand's HTML.
 
 ---
 
